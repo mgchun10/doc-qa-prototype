@@ -1,7 +1,8 @@
-# Introduction: Document-Based Question Answering Prototype
+# Document-Based Question Answering Prototype
 
 A prototype that demonstrates how to build a **document-based QA system** using **LangChain**, **OpenAI GPT-4**, and **FAISS**. 
-The system can read a PDF (e.g., research paper) and answer user questions in natural language using Retrieval-Augmented Generation (RAG).
+
+The system can read a PDF and answer user questions in natural language using Retrieval-Augmented Generation (RAG).
 
 ## Technical Architecture
 
@@ -11,33 +12,33 @@ The system can read a PDF (e.g., research paper) and answer user questions in na
 - Answer questions using GPT (via LangChain)
 - Modular and ready for extension
 
-## File Structure
-
-doc_qa_project/
-├── main.py            # Main QA pipeline
-├── .env               # API key (not committed)
-├── README.md          # Project info
-└── example.pdf        # Input document (user-supplied)
-
 ## Project Instructions
 
-Step 1. Clone the repo:
+### Step 1. Clone the repo:
 
+```bash
 git clone https://github.com/mgchun10/doc-qa-prototype.git
 cd doc-qa-prototype
+```
 
-Step 2.	Set up your environment:
+### Step 2.	Set up your environment:
 
+```
 python -m venv venv
 source venv/bin/activate     
 pip install -r requirements.txt
+```
 
-Step 3.	Add your .env file with:
+### Step 3.	Add your .env file with:
 
+```
 OPENAI_API_KEY=api_key
+```
 
-Step 4.	Place your example.pdf file in the root folder.
+### Step 4.	Place your example.pdf file in the root folder.
 
-Step 5.	Run the system:
+### Step 5.	Run the system:
 
+```
 python main.py
+```
