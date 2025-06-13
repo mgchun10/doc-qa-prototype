@@ -1,6 +1,6 @@
 # Document-Based Question Answering Prototype
 
-A prototype that demonstrates how to build a **document-based QA system** using **LangChain**, **OpenAI GPT-4**, and **FAISS**. 
+A simple prototype that demonstrates how to build a **document-based QA system** using **LangChain**, **OpenAI GPT-4**, and **FAISS**. 
 
 The system can read a PDF and answer user questions in natural language using Retrieval-Augmented Generation (RAG).
 
